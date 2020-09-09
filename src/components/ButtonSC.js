@@ -1,7 +1,7 @@
 import React,  { Component } from 'react';
 import styled from 'styled-components';
 
-class Button extends Component {
+class ButtonSC extends Component {
     render() {
         return(
             <StyledButton>{this.props.texto}</StyledButton>
@@ -19,7 +19,7 @@ const StyledButton = styled.button`
     padding: 1rem 1.5rem;
 `;
 
-Button.defaultProps = {
+ButtonSC.defaultProps = {
     texto: " "
 }
-export default Button;
+export default ButtonSC;
