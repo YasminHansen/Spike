@@ -17,6 +17,14 @@ const StyledButton = styled.button`
     font-size: 1.2rem;
     margin: 1rem;
     padding: 1rem 1.5rem;
+
+    &:hover{
+        background: #008CEA;
+    }
+
+    &:focus{
+        box-shadow: 0 0 0 .2rem rgba(38,143,255,.5);
+    }
 `;
 
 ButtonSC.defaultProps = {
